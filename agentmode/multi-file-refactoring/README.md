@@ -17,7 +17,7 @@ Refactor the function `getUserData()` to `fetchUserProfile()` and ensure that:
 
 This mini project simulates a real Node.js codebase with multiple layers:
 ```
-multi-file-refactor-demo/ 
+multi-file-refactoring/ 
 ├── services/
 │   ├── authService.js
 │   └── userService.js
@@ -40,7 +40,7 @@ The `getUserData()` function is used in various files — including services, ro
 - Node.js (optional, for running the code)
 
 ### Steps
-1. Open the `multi-file-refactor-demo/` folder in **VS Code Insiders**.
+1. Open the `multi-file-refactoring/` folder in **VS Code Insiders**.
 2. Open the **Copilot Chat panel** and switch the dropdown to **Agent**.
 3. In any file (e.g., `userService.js`), enter this prompt: 
 ```Refactor the getUserData function to be named fetchUserProfile, and update all references across the project.```
